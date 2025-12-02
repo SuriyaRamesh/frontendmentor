@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.card-title {
+    color: hsl(218, 44%, 22%);
+}
+.card-desc {
+    color: hsl(216, 15%, 48%);
+}
