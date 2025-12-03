@@ -4,16 +4,26 @@
 }
 body {
     background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
 }
 
 .container {
     padding: 0 20px;
+    position: relative;
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
-
+    padding: 20px;
+    width: 320px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
+
+
 
 .card-title {
     color: hsl(218, 44%, 22%);
