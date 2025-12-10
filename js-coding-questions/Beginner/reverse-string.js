@@ -20,5 +20,17 @@ console.log("reverseString1 : ", reverseString1(str));
 // join('') converts the array back into a string
 // → "olleh"
 
+// ---------------------------
 
- 
+// 2. Intermediate Method (Manual loop)
+
+function reverseString2(str) {
+    let reversed = '';
+    for(i = str.length -1; i >=0; i--) {
+        reversed += str[i];
+        console.log("reversed : ", str[i]);
+    }
+    return reversed;
+}
+
+console.log('reversedString2: ', reverseString2(str));
